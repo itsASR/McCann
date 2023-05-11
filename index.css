@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    height: 45px;
+    background-color: black;
+    justify-content: space-between;
+    padding: 0 75px;
+    align-items: center;
+}
+
+.topbar p {
+    color: #fff;
+}
+
+
+.topbarleft {
+    display: flex;
+}
+
+
+.topbarleft img {
+    height: 20px;
+    width: 20px;
+}
+
+.topbarnumber {
+    display: flex;
+}
+
+
+.topbarcontact {
+    display: flex;
+    padding-right: 30px;
+}
+
+.topbarcontact p {
+    padding-left: 10px;
+}
+
+.topbarcontact a{
+    color: #fff;
+}
+
+header {
+    background-color: rgb(252, 255, 255);
+    /* height: 100px; */
+}
+
+
+.headerdiv img {
+    height: 80px;
+    padding-top: 10px;
+}
+
+.headerdiv {
+    display: flex;
+    padding-left: 76px;
+    height: 105px;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0 25px;
+    color: black;
+    /* font-size: 200px; */
+
+}
+
+.freeestimate {
+    background-color: rgb(9, 66, 12);
+    padding: 13px 30px;
+    color: #fff;
+
+}
+
+nav {
+    padding-left: 165px;
+    padding-right: 18px;
+}
+
+.roofimg {
+    background-image: url(roof.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+.roofimg:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.55;
+}
+.roofimg .left, .roofimg .right{
+    position: relative;
+}
+
+.roofimg .left h1{
+    font-size: 56px;
+    padding-bottom: 15px;
+}
+
+.left p{
+    font-size: 18px;
+}
+
+
+.left{
+    padding-left: 70px;
+}
+
+.right{
+    padding: 100px 75px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-right: 20px;
+}
+
+
+.cta a{
+    padding: 11px 55px;
+    color: #fff;
+    border: 1px #faf7f7 solid;
+    font-size: 20px;
+    /* background-color: aqua; */
+    
+}
+
+section a:nth-child(1){
+
+    background-color: rgb(9, 66, 12);
+    border: none;
+    
+    
+}
+
+i{
+    padding-right: 20px;
+}
+
+
+.infosection{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 300px;
+}
+
+.infodiv1{
+    display: flex;
+    align-items: center;
+}
+
+.infodiv1 p{
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.infodiv1 img{
+    height: 70px;
+}
+
+.infosection{
+    padding: 50px 135px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    /* grid-gap: 50px; */
+}
+
+.formparent{
+    background-color: cornsilk;
+    width: 100vw;
+    height: 300px;
+}
+
+.formparent{
+    display: flex;
+}
+
+.leftformparent{
+    width: 50vw;
+}
+
+.rightformparent{
+    
+}
